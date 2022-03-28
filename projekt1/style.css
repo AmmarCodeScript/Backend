@@ -1,0 +1,331 @@
+/* Överhängande struktur */
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    /*för att sidan skal inte halve tonm*/
+    background-color: #3d3d3d;
+    background-image: url("../pngone.png");
+    background-repeat: repeat;
+    /* background-position: right top;*/
+    margin-right: 20px;
+    margin-left: 20px;
+    background-attachment: fixed;
+}
+
+#container {
+    border-radius: 12px;
+    background-color: #ffffffde;
+    max-width: 1000px;
+    min-height: 100%;
+    margin: auto;
+}
+
+.Darkweb h1,
+.Darkweb p,
+.Darkweb h3 {
+    color: white;
+}
+
+.Darkweb #container {
+    background-color: #000;
+}
+
+article {
+    padding: 15px 50px;
+    /* Skuffar in artikelblocken */
+}
+
+
+/* Huvudmenyn */
+
+nav {
+    border-radius: 12px;
+    background-color: #4A4E69;
+    padding: 15px 8px;
+    display: flex;
+    /* Gör alla barnelement till flexboxar */
+    align-items: center;
+    /* Placera ut flexboxarna vertikalt på mitten */
+}
+
+ul {
+    margin-left: auto;
+}
+
+nav a {
+    border-radius: 12px;
+    /* multiple selectors för noggrannare css styling */
+    color: #fff;
+    /* Länkarna i huvudmenyn */
+    font-weight: bold;
+    /* Definierar vikten på texten */
+    letter-spacing: 1px;
+    /* Definierar avståndet mellan tecknen i ett textblock */
+    text-decoration: none;
+    /* Tar bort strecket under länkarna */
+    padding: 8px;
+    /* Förberedelse för hover, gör blocket större */
+}
+
+nav a:hover {
+    background-color: #22223B;
+}
+
+
+/* ammar style */
+
+
+
+.myDIVClass {
+    border-style: solid;
+    width: 96%;
+    border-radius: 12px;
+    margin: 0px 20px 0px 0px;
+    padding: 5px;
+    padding-right: 25px;
+    background-color: #9A8C98;
+    margin-top: 20px;
+}
+
+.myDIVClassB {
+    border-style: solid;
+    width: 96%;
+    border-radius: 12px;
+    margin: 0px 20px 0px 0px;
+    padding: 5px;
+    padding-right: 25px;
+    background-color: rgb(216, 165, 34);
+    margin-top: 20px;
+}
+
+#myDIV1 {
+    border-style: solid;
+    width: 96%;
+    border-radius: 12px;
+    margin: 0px 20px 0px 0px;
+    padding: 5px;
+    padding-right: 25px;
+    background-color: rgb(218, 218, 219);
+    margin-top: 20px;
+}
+
+.myDIVGreen2 {
+    color: #ffffff;
+    text-shadow: 4px 6px 7px #000;
+    opacity: 1;
+    text-align: center;
+    border-radius: 12px;
+    margin: 0px 0px 20px 0px;
+    width: 100%;
+    background-color: #073b4c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.myDIV {
+    background-size: auto;
+    margin: 0px 20px 0px 20px;
+    border-style: solid;
+    border-radius: 12px;
+    padding: 0px 10px 10px 10px;
+    /* text-align: center; */
+    background-color: #9A8C98;;
+    margin-top: 20px;
+}
+
+.myDIV h1{
+    color: #ffffff;
+    text-shadow: 4px 6px 7px #000;
+    opacity: 1;
+    text-align: center;
+    border-radius: 12px;
+    margin: 0px 0px 20px 0px;
+    width: 100%;
+    background-color: #4A4E69;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+.myDIVGreen {
+    border-style: solid;
+    width: 96%;
+    border-radius: 12px;
+    margin: 0px 20px 0px 0px;
+    padding: 5px;
+    padding-right: 25px;
+    background-color: rgb(218, 218, 219);
+    margin-top: 20px;
+}
+h1{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold; 
+}
+.myDIVGreenD {
+    border-style: solid;
+    width: 96%;
+    border-radius: 12px;
+    margin: 0px 20px 0px 0px;
+    padding: 5px;
+    padding-right: 25px;
+    background-color: rgb(2, 61, 2);
+    margin-top: 20px;
+}
+
+.myDIVGrey {
+    border-style: solid;
+    width: 96%;
+    border-radius: 12px;
+    margin: 0px 20px 0px 0px;
+    padding: 5px;
+    padding-right: 25px;
+    background-color: rgb(128, 128, 128);
+    margin-top: 20px;
+}
+
+.myDIVRed {
+    border-style: solid;
+    width: 96%;
+    border-radius: 12px;
+    margin: 0px 20px 0px 0px;
+    padding: 5px;
+    padding-right: 25px;
+    background-color: Red;
+    margin-top: 20px;
+}
+
+#myDIV2 {
+    border-style: solid;
+    width: 96%;
+    border-radius: 12px;
+    margin: 0px 20px 0px 0px;
+    padding: 5px;
+    padding-right: 25px;
+    background-color: red;
+    margin-top: 20px;
+}
+
+.separator1 {
+    border-bottom: 4px solid #22223B;
+    margin: 0px 20px 0px 20px;
+    padding-right: 0px;
+}
+
+.b_close {
+    background-color: salmon;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=text]:focus {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    padding: 8px 0px 8px 4px;
+    font-size: 14px;
+}
+
+input {
+    background-color: rgb(218, 218, 219);
+    border: 3px solid rgb(66, 66, 66);
+    border-radius: 12px;
+    padding: 8px 0px 8px 4px;
+    font-size: 14px;
+}
+
+#fileToUpload {
+    background-color: black;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+textarea {
+    background-color: rgb(218, 218, 219);
+    width: 90%;
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 8px 0px 8px 4px;
+    font-size: 14px;
+}
+
+.button {
+    background-color: black;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.buttonB {
+    background-color: blue;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#logo {
+    width: 70px;
+    height: 70px;
+}
+
+.footer {
+    color: #fff;
+    text-align: center;
+    border-radius: 12px;
+    background-color: #4A4E69;
+    padding: 15px 8px;
+    /* Gör alla barnelement till flexboxar */
+    align-items: center;
+    /* Placera ut flexboxarna vertikalt på mitten */
+}
+
+@media (max-width: 640px) {
+    header {
+        display: block;
+        text-align: center;
+    }
+
+    nav li {
+        float: none;
+    }
+    
+}
+
+/*ammar style*/
