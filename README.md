@@ -50,3 +50,4 @@ other things are also registered, such as the visitor's IP addresses and time of
 ## 9. Timer:
 - Here comments are stored in the top page of a file. You can also see them through a link.
 ![](./images/p1-img9.png)
+
