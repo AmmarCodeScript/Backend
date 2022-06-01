@@ -39,9 +39,9 @@ there will also be a red box asking the user to log in again.
 The catchwords for the page are: Breastfeeding.
 ![](../images/p1-img6.png)
 ## 7. Upload image:
-- Only pictures with me are uploaded here,
-png and jpeg format to the server.
-then you can click on the link to see all the images that are loaded in the server.
+- Images are uploaded here with jpg,
+ png and jpeg to the server.
+ then you can click on the link to see all the images that are loaded in the server.
 ![](../images/p1-img7.png)
 ## 8. Visitor counter:
 - Here, the total number of visits to a page in a file is loaded.
