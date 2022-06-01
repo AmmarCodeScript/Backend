@@ -12,7 +12,8 @@ apache, php version, server name and ip to home).
 - ![](../images/p1-img2.png)
 ## 3. Form:
 - The user enters the date and the server responds how far it is there. 
-- If it's old date so it will be in a red box, and if it is future date it becomes a green box. It also comes with the number of months, days, timber, minutes and seconds.
+- If it's old date so it will be in a red box, and if it is future date it becomes a green box. 
+- It also comes with the number of months, days, timber, minutes and seconds.
 - ![](../images/p1-img3.png)
 
 ## 4.Signup form:
